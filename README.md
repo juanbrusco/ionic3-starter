@@ -110,6 +110,30 @@ Para corregir error de Manifest al abrir el proyecto en AndroidStudio
     platforms/android/google-services.json 
     platforms/android/app/google-services.json   
 
+## Pasos para agregar Firebase (analytics, events, notifications, crashes)           
+- Integración nativa en Ionic del plugin de Firebase       
+<https://ionicframework.com/docs/v3/native/firebase/>   
+- Documentación     
+<https://github.com/arnesson/cordova-plugin-firebase/blob/master/docs/API.md>   
+1- Install the Cordova and Ionic Native plugins:        
+`ionic cordova plugin add cordova-plugin-firebase`      
+`npm install --save @ionic-native/firebase@4`       
+2- Download your Firebase configuration files, `GoogleService-Info.plist` for iOS and `google-services.json` for android, and place them in the root folder of your project     
+3- Add this plugin to your app's module     
+4- Usage on component       
+`import { Firebase } from '@ionic-native/firebase';`        
+
+## Pasos para agregar Crashlytics   
+- Integración nativa en Ionic del plugin de Crashlytics       
+<https://ionicframework.com/docs/v3/native/crashlytics/>    
+1- Create Fabric Account and get de API_KEY and API_SECRET
+2- Install the Cordova and Ionic Native plugins:        
+`ionic cordova plugin add cordova-fabric-plugin --variable FABRIC_API_KEY=XXX --variable FABRIC_API_SECRET=xxx`      
+`npm install --save @ionic-native/fabric@4`       
+3- Add this plugin to your app's module     
+4- Usage on component       
+`import { Crashlytics } from '@ionic-native/fabric';`       
+
 ## Pasos para borrar Ionic/Cordova  
 `npm uninstall -g ionic`    
 `npm uninstall -g cordova`  
