@@ -1,5 +1,5 @@
 # Ionic - Starter Project Structure
-Proyecto Ionic3 + Angular4
+Proyecto Ionic3 + Angular5
 
 ## Pasos para probar la app:
 --------------------
