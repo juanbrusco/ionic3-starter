@@ -97,10 +97,10 @@
     </plugin>
     <engine name="browser" spec="~4.1.0" />
     <engine name="ios" spec="~4.5.5" />
-    <engine name="android" spec="~7.1.4" />
     <plugin name="cordova-plugin-firebase" spec="^2.0.5" />
     <plugin name="cordova-fabric-plugin" spec="^1.1.14-dev">
         <variable name="FABRIC_API_KEY" value="XXX" />
         <variable name="FABRIC_API_SECRET" value="xxx" />
     </plugin>
+    <engine name="android" spec="~7.1.4" />
 </widget>

@@ -55,13 +55,6 @@ Proyecto Ionic3 + Angular5
 <https://ionicframework.com/docs/cli/>    
 - Iconos Ionic  
 <https://ionicframework.com/docs/ionicons/>      
-- Searchable Select     
-<https://ionicacademy.com/ionic-searchable-select-component/>   
-- Selectable search (async)     
-<https://github.com/eakoriakin/ionic-selectable#getting-started>    
-<https://stackblitz.com/edit/ionic-selectable-on-search?file=services%2Fport.service.ts>    
-- Timeline component    
-<https://competenepal.com/beautiful-timeline-component-in-ionic-3/>     
 
 ## Fixes
 --------------------
