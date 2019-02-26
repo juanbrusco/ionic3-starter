@@ -108,8 +108,11 @@ Para corregir error de Manifest al abrir el proyecto en AndroidStudio
 
     Copiar: 
     platforms/android/google-services.json 
-    platforms/android/app/google-services.json   
+    platforms/android/app/google-services.json    
 
+## Corregir visualización en Ionic Serve:   
+    Instalar `npm install @ionic/lab@rc`    
+    
 ## Pasos para borrar Ionic/Cordova  
 `npm uninstall -g ionic`    
 `npm uninstall -g cordova`  
